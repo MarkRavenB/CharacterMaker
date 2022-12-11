@@ -90,3 +90,10 @@ def gamecreate():
    item.append(g_item)
    personality.append(g_personality)
    print("\nInput SuccessFully!")        
+
+def view():
+    if len(race) == 0:
+        print("\nNo Data To View!")
+    else:
+     for i in range(len(race)):       
+        print("\n",[i],"\nRace: ",race[i], "\nName: ",name[i], "\nSkills: ",skills[i], "\nRole: ", role[i], "\nItem: ", item[i], "\nPersonality: ", personality[i])
