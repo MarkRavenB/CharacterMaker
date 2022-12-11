@@ -97,3 +97,17 @@ def view():
     else:
      for i in range(len(race)):       
         print("\n",[i],"\nRace: ",race[i], "\nName: ",name[i], "\nSkills: ",skills[i], "\nRole: ", role[i], "\nItem: ", item[i], "\nPersonality: ", personality[i])
+
+def delete():
+    if len(race) == 0:
+        print("\nNo Data! Cannot Remove.")
+    else:
+        view()
+        index = int(input("\nEnter Index To Delete: "))
+        del name[index]
+        del skills[index]
+        del race[index]
+        del role[index]
+        del item[index]
+        del personality[index]
+        print("\nSuccessfully Deleted!")
