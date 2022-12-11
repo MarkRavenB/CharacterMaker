@@ -5,7 +5,7 @@
 
 <h3 align="left">UML Diagram:</h3>
 
-![UML](https://user-images.githubusercontent.com/116793842/206904570-954e0373-9f35-4846-9fa1-aa33899d055c.png)
+![UML Diagram](https://user-images.githubusercontent.com/116793842/206908675-219a1830-0a2c-4cd3-add7-076172184208.png)
 
 <h3 align="left">Video Presentation:</h3>
 https://www.youtube.com/watch?v=-d57I607_74
